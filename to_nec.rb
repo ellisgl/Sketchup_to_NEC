@@ -6,7 +6,7 @@ Description:
     Convert edges (lines) to GW (wires) 
 
 Version:
-    20160818.001
+    20160818.002
 Author:
     EllisGL
 
@@ -20,6 +20,9 @@ Usage:
     The console window will pop up and output the GW lines. Copy to your NEC file.
 
 Change Log:
+    20160818.002
+    A little extra code commenting
+
     20160818.001
     Initial release
 =end
@@ -39,7 +42,7 @@ UI.menu("Plugins").add_item("Convert to NEC") {
 
     # Loops through all the entities
     entities.each do |entity|
-        # Only get Edges
+        # Only get Edges (Not faces, groups or components)
         if entity.is_a?(Sketchup::Edge)
             # Get the start and end vertices for the edge
             vs = entity.start.position
