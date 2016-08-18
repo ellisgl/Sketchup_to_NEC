@@ -3,10 +3,10 @@ Title:
     Sketchup to NEC
     
 Description:
-    Convert edges (lines) to GW (wires) 
+    Convert edges (lines) to GW (wires) cards in Meters.
 
 Version:
-    20160818.002
+    20160818.001
 Author:
     EllisGL
 
@@ -20,9 +20,6 @@ Usage:
     The console window will pop up and output the GW lines. Copy to your NEC file.
 
 Change Log:
-    20160818.002
-    A little extra code commenting
-
     20160818.001
     Initial release
 =end
