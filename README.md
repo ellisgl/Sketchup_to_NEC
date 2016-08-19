@@ -11,7 +11,7 @@ Click "Extensions", then "Convert to NEC".
 The console window will pop up and output the GW lines. Copy to your NEC file.
 
 ##Result:
-Sketchup:
+Sketchup (Get the example file here: https://dl.dropboxusercontent.com/u/36727658/twisted8.skp):
 ![Sketchup](http://i.imgur.com/aLJhKWz.png "Sketchup")
 
 4NEC:
